@@ -30,8 +30,9 @@ export default function Products(){
     return (
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
             {products.map((product) => (
-                <ProductCard 
+                <ProductCard
                     key={product.id}
+                    id={product.id}
                     image={product.image}
                     title={product.title}
                     description={product.description}
