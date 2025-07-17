@@ -110,7 +110,6 @@ function Home(){
                                     id={product.id}
                                     image={product.image}
                                     title={product.title}
-                                    description={product.description}
                                     price={`$${product.price}`}
                                 />
                             ))}

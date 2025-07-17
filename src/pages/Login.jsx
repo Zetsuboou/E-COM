@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Login() {
     return (
         <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4">
@@ -46,7 +48,7 @@ function Login() {
                     <div className="text-center">
                         <p className="font-[Lora] text-gray-600">
                             Don't have an account? 
-                            <a href="#" className="text-amber-600 hover:text-amber-500 ml-1">Sign up here</a>
+                            <Link to="/SignUp" className="text-amber-600 hover:text-amber-500 ml-1">Sign up here</Link>
                         </p>
                     </div>
                 </form>
